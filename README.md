@@ -10,3 +10,8 @@
   - Install `torch-directmy` by running `py -m pip install torch-directml` in ther terminal
   - Install all the other dependencies for ComfyUI by running `py -m pip install -r .\requirements.txt` at the root of the ComyUI repository
   - Launch ComfUI by running `python main.py --directml `
+
+
+## To share models between other UI and ComfyUI
+- Rename the extra_model_paths.yaml.example in the root of the ComfyUI repository to extra_model_paths.yaml.
+- If you're using Automatic1111 UI, in the extra_model_paths.yaml file, set the base_path to the location of your A111 stable diffusion. Example `C:\Users\<myusername>\projects\ai\stable-diffusion`
